@@ -21,8 +21,8 @@ package v1
 import (
 	"time"
 
-	v1 "github.com/shibd/k8s-controller-custom-resource/pkg/apis/samplecrd/v1"
-	scheme "github.com/shibd/k8s-controller-custom-resource/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/shibd/k8s-controller-custom/pkg/apis/samplecrd/v1"
+	scheme "github.com/shibd/k8s-controller-custom/pkg/client/clientset/versioned/scheme"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

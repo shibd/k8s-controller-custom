@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/shibd/k8s-controller-custom-resource/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/shibd/k8s-controller-custom-resource/pkg/client/informers/externalversions/internalinterfaces"
-	samplecrd "github.com/shibd/k8s-controller-custom-resource/pkg/client/informers/externalversions/samplecrd"
+	versioned "github.com/shibd/k8s-controller-custom/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/shibd/k8s-controller-custom/pkg/client/informers/externalversions/internalinterfaces"
+	samplecrd "github.com/shibd/k8s-controller-custom/pkg/client/informers/externalversions/samplecrd"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

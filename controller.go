@@ -17,11 +17,11 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
 
-	samplecrdv1 "github.com/shibd/k8s-controller-custom-resource/pkg/apis/samplecrd/v1"
-	clientset "github.com/shibd/k8s-controller-custom-resource/pkg/client/clientset/versioned"
-	networkscheme "github.com/shibd/k8s-controller-custom-resource/pkg/client/clientset/versioned/scheme"
-	informers "github.com/shibd/k8s-controller-custom-resource/pkg/client/informers/externalversions/samplecrd/v1"
-	listers "github.com/shibd/k8s-controller-custom-resource/pkg/client/listers/samplecrd/v1"
+	samplecrdv1 "github.com/shibd/k8s-controller-custom/pkg/apis/samplecrd/v1"
+	clientset "github.com/shibd/k8s-controller-custom/pkg/client/clientset/versioned"
+	networkscheme "github.com/shibd/k8s-controller-custom/pkg/client/clientset/versioned/scheme"
+	informers "github.com/shibd/k8s-controller-custom/pkg/client/informers/externalversions/samplecrd/v1"
+	listers "github.com/shibd/k8s-controller-custom/pkg/client/listers/samplecrd/v1"
 )
 
 const controllerAgentName = "network-controller"

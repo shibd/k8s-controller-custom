@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/shibd/k8s-controller-custom-resource",
+	"ImportPath": "github.com/shibd/k8s-controller-custom",
 	"GoVersion": "go1.11",
 	"GodepVersion": "v80",
 	"Deps": [

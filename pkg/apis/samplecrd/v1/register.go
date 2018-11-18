@@ -3,7 +3,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"github.com/shibd/k8s-controller-custom-resource/pkg/apis/samplecrd"
+	"github.com/shibd/k8s-controller-custom/pkg/apis/samplecrd"
 )
 
 // GroupVersion is the identifier for the API which includes

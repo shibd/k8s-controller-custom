@@ -1,5 +1,5 @@
 # 代码生成的工作目录，也就是我们的项目路径
-ROOT_PACKAGE="github.com/shibd/k8s-controller-custom-resource"
+ROOT_PACKAGE="github.com/shibd/k8s-controller-custom"
 # API Group
 CUSTOM_RESOURCE_NAME="samplecrd"
 # API Version
